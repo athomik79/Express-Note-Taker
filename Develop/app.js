@@ -22,6 +22,14 @@ app.get("/api/notes", function(req, res){
     res.sendFile(path.join(__dirname, "/db/db.json"));
 })
 
+app.post("/api/notes", function(req, res){
+    let userNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    let newNote = req.body;
+    userNotes.push(newNote);
+    fs.writeFileSync("./db/db.json", JSON.stringify(userNotes));
+    res.json(userNotes);
+})
+
 app.listen(port, function() {
     console.log(`Now listening on port ${port}`);
 })
