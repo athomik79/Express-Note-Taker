@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +12,5 @@
     "express": "^4.16.4"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "Takes notes, add delete notes to your list"
 }

@@ -1,9 +1,9 @@
-const express = require("express");
+const express = require("./node_modules/express");
 const path = require("path");
 const fs = require("fs");
 
 const app = express();
-const port = 8080;
+var port = process.env.PORT || 8080;
 const mainDir = path.join(__dirname, "/public");
 
 app.use(express.static("public"));
