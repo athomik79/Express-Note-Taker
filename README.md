@@ -12,7 +12,10 @@ athomik79
 
 Express Note Taker
 
-### Description:
+
+![Template Engine Home](https://github.com/athomik79/11-Express-Note-Taker/blob/master/note_taker_home.png)
+
+![Template Engine Notes](https://github.com/athomik79/11-Express-Note-Taker/blob/master/note_taker_notes.png)
 
 An application that can be used to write, save, and delete notes.
 
