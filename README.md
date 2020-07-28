@@ -1,4 +1,5 @@
 # Take Notes with Express
+An express note taker app
 
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
 
